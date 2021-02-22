@@ -1,10 +1,14 @@
-import React from 'react'
-import { JumbotronContainer } from './containers/jumbotron'
+import React from "react";
+import FooterContainer from "./containers/footer";
+import { JumbotronContainer } from "./containers/jumbotron";
 
-const App = ()  => {
+const App = () => {
   return (
-    <JumbotronContainer />
-  )
-}
+    <>
+      <JumbotronContainer />
+      <FooterContainer />
+    </>
+  );
+};
 
-export default App
+export default App;
