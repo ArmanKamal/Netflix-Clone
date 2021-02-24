@@ -3,6 +3,8 @@ import styled from "styled-components/macro";
 export const Container = styled.div`
   display: flex;
   border-bottom: 8px solid #222;
+
+
 `;
 
 
@@ -12,6 +14,9 @@ export const Inner = styled.div`
   padding: 81px 65px;
   max-width: 815px;
   margin: auto;
+
+
+
 `;
 
 export const Item = styled.div`
@@ -22,6 +27,8 @@ export const Item = styled.div`
     &:first-of-type{
         margin-top: 3em;
     }
+
+ 
 `;
 
 export const Header = styled.div`
