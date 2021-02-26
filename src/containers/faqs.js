@@ -13,12 +13,13 @@ export const FaqsContainer = () => {
           <Accordion.Body>{item.body}</Accordion.Body>
         </Accordion.Item>
       ))}
-    </Accordion>
+
        <OptForm>
          <OptForm.Input placeholder="Email address" />
          <OptForm.Button>Get Started</OptForm.Button>
        </OptForm>
        <OptForm.Text>Ready to watch? Enter your email to create or restart your membership</OptForm.Text>
+       </Accordion>
       </>
   );
 };
