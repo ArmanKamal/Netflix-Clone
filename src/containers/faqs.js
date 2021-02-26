@@ -4,6 +4,7 @@ import { Accordion, OptForm } from "../components/index";
 
 export const FaqsContainer = () => {
   return (
+    <>
     <Accordion>
       <Accordion.Title>Frequently Asked Questions</Accordion.Title>
       {faqsData.map((item) => (
@@ -12,12 +13,12 @@ export const FaqsContainer = () => {
           <Accordion.Body>{item.body}</Accordion.Body>
         </Accordion.Item>
       ))}
-
-      <OptForm>
-      <OptForm.Text>Ready to watch? Enter your email to create or restart your membership</OptForm.Text>
-        <OptForm.Input placeholder="Email address" />
-        <OptForm.Button>Try it now</OptForm.Button>
-      </OptForm>
     </Accordion>
+       <OptForm>
+         <OptForm.Input placeholder="Email address" />
+         <OptForm.Button>Get Started</OptForm.Button>
+       </OptForm>
+       <OptForm.Text>Ready to watch? Enter your email to create or restart your membership</OptForm.Text>
+      </>
   );
 };

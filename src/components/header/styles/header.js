@@ -24,13 +24,13 @@ export const Container = styled.div`
 `;
 
 export const Logo = styled.img`
-    width:108px;
-    height: 32px;
+    height: 102px;
+    width: 167px;
     margin-right: 40px;
 
     @media (min-width: 1449px){
-        height: 102px;
-        width: 167px;
+        height: 150px;
+        width: 200px;
     }
 `;
 
