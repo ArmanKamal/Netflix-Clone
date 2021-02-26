@@ -2,7 +2,7 @@ import React from 'react'
 import { Link as ReactRouterLink } from 'react-router-dom'
 import {Background,Container, Logo,Button} from './styles/header'
 
-export default function Header({ bg=true}, children, ...restProps) {
+export default function Header({ bg=true, children, ...restProps}) {
     return bg? <Background { ...restProps}>{children}</Background> : children;
 }
 

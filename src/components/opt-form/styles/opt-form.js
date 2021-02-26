@@ -7,6 +7,7 @@ export const Container = styled.div`
     height: 100%;
     margin-top: 20px;
     flex-wrap: wrap;
+    width: 950px;
 
 
     @media(max-width: 1000px){
