@@ -1,11 +1,21 @@
-import React from 'react'
+import React,{useState} from 'react'
+import { Form } from '../components';
+import FooterContainer  from '../containers/footer'
+import { HeaderContainer } from '../containers/header'
 
-function login() {
+export default function Login() {
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
+    const [error, setError] = useState('');
     return (
-        <div>
-            Login Page
-        </div>
+      <>
+        <HeaderContainer />
+        <Form>
+            <Form.Title>Sign In</Form.Title>
+            
+        </Form>
+        <FooterContainer />
+      </>
     )
 }
 
-export default login
