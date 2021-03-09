@@ -1,6 +1,6 @@
 import React from 'react'
 
-function browse() {
+function Browse() {
     return (
         <div>
             Browse Page
@@ -8,4 +8,4 @@ function browse() {
     )
 }
 
-export default browse
+export default Browse
